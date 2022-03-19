@@ -55,7 +55,7 @@ public class TwoSum {
         int target2 = 6;
         int[] res2 = twoSum(nums2, target2);
         Assert.assertEquals(0, res2[0]);
-//        Assert.assertEquals(1, res2[1]);
+        Assert.assertEquals(1, res2[1]);
     }
 
     public static int[] twoSum(int[] nums, int target) {
